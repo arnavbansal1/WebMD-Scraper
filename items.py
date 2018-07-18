@@ -1,0 +1,22 @@
+from scrapy import Item, Field
+
+class WebmdItem(Item):
+    Condition = Field()
+    Drug = Field()
+    Indication = Field()
+    Type = Field()
+    Use = Field()
+    HowtoUse = Field()
+    Sides = Field()
+    Precautions = Field()
+    Interactions = Field()
+    BrandName = Field()
+    GenName = Field()
+    AvoidUse = Field()
+    Allergies = Field()
+    DrugId = Field()
+    NumReviews = Field()
+    Effectiveness = Field()
+    EaseofUse = Field()
+    Satisfaction = Field()
+    Reviews = Field()
